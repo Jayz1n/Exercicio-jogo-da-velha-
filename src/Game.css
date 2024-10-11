@@ -1,0 +1,91 @@
+body {
+  margin: 0; 
+  height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: #f7f9fc; 
+}
+
+.game-container {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+}
+
+.game-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center; 
+}
+
+.game-board {
+  margin: 20px 0; 
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.board-row {
+  display: flex;
+  justify-content: center; 
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 2px solid #007bff;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  margin: 5px; 
+}
+
+.square:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+.game-info ol {
+  padding: 0;
+  list-style: none;
+}
+
+.game-info button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.game-info button:hover {
+  text-decoration: underline;
+}
